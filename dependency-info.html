@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>SimMetrics &#x2013; Dependency Information</title>
+    <title>Simmetrics Core &#x2013; Dependency Information</title>
     <style type="text/css" media="all">
       @import url("./css/maven-base.css");
       @import url("./css/maven-theme.css");
@@ -16,7 +16,7 @@
   <body class="composite">
     <div id="banner">
 <div id="bannerLeft">
-SimMetrics
+Simmetrics Core
 </div>
       <div class="clear">
         <hr/>
@@ -27,31 +27,28 @@ SimMetrics
         <span id="publishDate">Last Published: 2018-02-23</span>
           &nbsp;| <span id="projectVersion">Version: 4.1.2-SNAPSHOT</span>
       </div>
-      <div class="xright"><a href="./" title="SimMetrics">SimMetrics</a>      </div>
+      <div class="xright"><a href="./" title="Simmetrics Core">Simmetrics Core</a>      </div>
       <div class="clear">
         <hr/>
       </div>
     </div>
     <div id="leftColumn">
       <div id="navcolumn">
-       <h5>Modules</h5>
+       <h5>Parent Project</h5>
     <ul>
-  <li class="none"><a href="simmetrics-core/index.html" title="Simmetrics Core">Simmetrics Core</a>  </li>
-  <li class="none"><a href="simmetrics-commons-codec-simplifiers/index.html" title="Simmetrics Apache Commons Codec Simplifiers">Simmetrics Apache Commons Codec Simplifiers</a>  </li>
-  <li class="none"><a href="simmetrics-example/index.html" title="Simmetrics Examples">Simmetrics Examples</a>  </li>
+  <li class="none"><a href="../index.html" title="SimMetrics">SimMetrics</a>  </li>
     </ul>
        <h5>Project Documentation</h5>
     <ul>
   <li class="expanded"><a href="project-info.html" title="Project Information">Project Information</a>      <ul>
   <li class="none"><a href="integration.html" title="CI Management">CI Management</a>  </li>
-  <li class="none"><a href="dependency-convergence.html" title="Dependency Convergence">Dependency Convergence</a>  </li>
+  <li class="none"><a href="dependencies.html" title="Dependencies">Dependencies</a>  </li>
   <li class="none"><strong>Dependency Information</strong>
   </li>
   <li class="none"><a href="dependency-management.html" title="Dependency Management">Dependency Management</a>  </li>
   <li class="none"><a href="index.html" title="About">About</a>  </li>
   <li class="none"><a href="issue-tracking.html" title="Issue Management">Issue Management</a>  </li>
   <li class="none"><a href="license.html" title="Licenses">Licenses</a>  </li>
-  <li class="none"><a href="modules.html" title="Project Modules">Project Modules</a>  </li>
   <li class="none"><a href="plugin-management.html" title="Plugin Management">Plugin Management</a>  </li>
   <li class="none"><a href="plugins.html" title="Plugins">Plugins</a>  </li>
   <li class="none"><a href="team-list.html" title="Team">Team</a>  </li>
@@ -74,38 +71,37 @@ SimMetrics
 <div class="source">
 <pre>&lt;dependency&gt;
   &lt;groupId&gt;com.github.mpkorstanje&lt;/groupId&gt;
-  &lt;artifactId&gt;simmetrics&lt;/artifactId&gt;
+  &lt;artifactId&gt;simmetrics-core&lt;/artifactId&gt;
   &lt;version&gt;4.1.2-SNAPSHOT&lt;/version&gt;
-  &lt;type&gt;pom&lt;/type&gt;
 &lt;/dependency&gt;</pre></div></div>
 <div class="section">
 <h3><a name="Apache_Buildr"></a>Apache Buildr</h3><a name="Apache_Buildr"></a>
 <div class="source">
-<pre>'com.github.mpkorstanje:simmetrics:pom:4.1.2-SNAPSHOT'</pre></div></div>
+<pre>'com.github.mpkorstanje:simmetrics-core:jar:4.1.2-SNAPSHOT'</pre></div></div>
 <div class="section">
 <h3><a name="Apache_Ivy"></a>Apache Ivy</h3><a name="Apache_Ivy"></a>
 <div class="source">
-<pre>&lt;dependency org=&quot;com.github.mpkorstanje&quot; name=&quot;simmetrics&quot; rev=&quot;4.1.2-SNAPSHOT&quot;&gt;
-  &lt;artifact name=&quot;simmetrics&quot; type=&quot;pom&quot; /&gt;
+<pre>&lt;dependency org=&quot;com.github.mpkorstanje&quot; name=&quot;simmetrics-core&quot; rev=&quot;4.1.2-SNAPSHOT&quot;&gt;
+  &lt;artifact name=&quot;simmetrics-core&quot; type=&quot;jar&quot; /&gt;
 &lt;/dependency&gt;</pre></div></div>
 <div class="section">
 <h3><a name="Groovy_Grape"></a>Groovy Grape</h3><a name="Groovy_Grape"></a>
 <div class="source">
 <pre>@Grapes(
-@Grab(group='com.github.mpkorstanje', module='simmetrics', version='4.1.2-SNAPSHOT')
+@Grab(group='com.github.mpkorstanje', module='simmetrics-core', version='4.1.2-SNAPSHOT')
 )</pre></div></div>
 <div class="section">
 <h3><a name="Gradle.2FGrails"></a>Gradle/Grails</h3><a name="GradleGrails"></a>
 <div class="source">
-<pre>compile 'com.github.mpkorstanje:simmetrics:4.1.2-SNAPSHOT'</pre></div></div>
+<pre>compile 'com.github.mpkorstanje:simmetrics-core:4.1.2-SNAPSHOT'</pre></div></div>
 <div class="section">
 <h3><a name="Scala_SBT"></a>Scala SBT</h3><a name="Scala_SBT"></a>
 <div class="source">
-<pre>libraryDependencies += &quot;com.github.mpkorstanje&quot; % &quot;simmetrics&quot; % &quot;4.1.2-SNAPSHOT&quot;</pre></div></div>
+<pre>libraryDependencies += &quot;com.github.mpkorstanje&quot; % &quot;simmetrics-core&quot; % &quot;4.1.2-SNAPSHOT&quot;</pre></div></div>
 <div class="section">
 <h3><a name="Leiningen"></a>Leiningen</h3><a name="Leiningen"></a>
 <div class="source">
-<pre>[com.github.mpkorstanje/simmetrics &quot;4.1.2-SNAPSHOT&quot;]</pre></div></div></div>
+<pre>[com.github.mpkorstanje/simmetrics-core &quot;4.1.2-SNAPSHOT&quot;]</pre></div></div></div>
       </div>
     </div>
     <div class="clear">
